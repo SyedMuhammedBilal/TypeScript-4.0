@@ -42,3 +42,8 @@ var Axiom;
 })(Axiom || (Axiom = {}));
 ;
 console.log(Axiom.AIC);
+function greet(name) {
+    return "Hello" + name;
+}
+;
+greet("bilal");
